@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Ludo Squad</string>
+
+    <!-- Top Bar & Navigation -->
+    <string name="lobby_title">Ludo Lobby</string>
+    <string name="tab_lobby">Lobby</string>
+    <string name="tab_rules">Rules</string>
+    <string name="tab_settings">Settings</string>
+
+    <!-- Splash & Profile Setup Screen -->
+    <string name="splash_welcome">Welcome to Ludo Squad</string>
+    <string name="splash_tagline">Roll. Move. Win. Only for the Squad.</string>
+    <string name="enter_name_hint">Enter your name</string>
+    <string name="add_photo">Add Profile Picture</string>
+    <string name="lets_play">Let\'s Play!</string>
+
+    <!-- Lobby Screen -->
+    <string name="greeting_hello">Hello, %1$s!</string>
+    <string name="greeting_default_name">Player</string>
+    <string name="greeting_subtitle">Ready to play Ludo?</string>
+    <string name="create_private_room">+ Create Private Room</string>
+    <string name="create_room_desc">Create your own private game and invite friends</string>
+    <string name="join_room_title">Join Room</string>
+    <string name="join_room_desc">Enter 6-digit code to join a friend\'s room</string>
+    <string name="join_room_button">Join Room &gt;</string>
+    <string name="players_count_format">Players (%1$d/4)</string>
+    <string name="host_badge">HOST</string>
+    <string name="you_label">You</string>
+    <string name="waiting_player">Waiting for Player…</string>
+    <string name="start_game">Start Game ▶</string>
+
+    <!-- Game Board -->
+    <string name="room_code_format">ROOM: %1$s</string>
+    <string name="your_turn_format">Your Turn - %1$s</string>
+    <string name="turn_waiting_format">%1$s\'s Turn</string>
+    <string name="timer_placeholder">00:00</string>
+    <string name="waiting_status">Waiting</string>
+    <string name="roll_dice">Roll</string>
+    <string name="leave_game">Leave Game</string>
+    <string name="leave_game_confirm">Are you sure you want to leave the current match?</string>
+
+    <!-- Rules Screen -->
+    <string name="rules_title">Ludo Squad Rules</string>
+    <string name="rule_1_title">Starting the Game</string>
+    <string name="rule_1_desc">A roll of 6 is strictly required to bring a token out of the home base onto the active track.</string>
+    <string name="rule_2_title">Rolling a Six</string>
+    <string name="rule_2_desc">Rolling a 6 grants a bonus turn. However, rolling three consecutive 6s skips your turn immediately.</string>
+    <string name="rule_3_title">Capturing Tokens</string>
+    <string name="rule_3_desc">Landing on an opponent\'s token captures it, sending it back home, and awards you an extra bonus roll.</string>
+    <string name="rule_4_title">Safe Squares</string>
+    <string name="rule_4_desc">Colored starting boxes and star-marked squares are safe zones where tokens cannot be captured.</string>
+    <string name="rule_5_title">Winning the Match</string>
+    <string name="rule_5_desc">An exact roll is required to enter the center home triangle. First player to get all 4 tokens home wins!</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="setting_sound">Sound Effects</string>
+    <string name="setting_sound_desc">Dice rolls, token movement and capture sounds</string>
+    <string name="setting_profile">Change Profile</string>
+    <string name="setting_profile_desc">Edit player display name and avatar</string>
+    <string name="setting_rules">How to Play</string>
+    <string name="setting_whatsapp">Voice Chat (WhatsApp Group)</string>
+    <string name="setting_whatsapp_desc">Connect with your squad on live voice chat</string>
+    <string name="setting_about">About Ludo Squad</string>
+    <string name="setting_version">Version 1.0 (Production Build)</string>
+    <string name="setting_clear_data">Clear Data &amp; Reset</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_menu">Menu</string>
+    <string name="cd_notifications">Notifications</string>
+    <string name="cd_profile">Profile</string>
+    <string name="cd_back">Back</string>
+    <string name="cd_host_crown">Host Crown</string>
+    <string name="cd_add_player">Add Player</string>
+    <string name="cd_dice">Dice</string>
+    <string name="cd_chat">Chat</string>
+    <string name="cd_avatar">Player Avatar</string>
+</resources>

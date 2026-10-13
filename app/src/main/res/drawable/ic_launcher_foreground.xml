@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:translateX="0"
+        android:translateY="0">
+        <!-- Pawn Base Shadow / Base ring -->
+        <path
+            android:fillColor="#15803D"
+            android:pathData="M34,74 C34,71 42,69 54,69 C66,69 74,71 74,74 L73,79 C73,82 65,84 54,84 C43,84 35,82 35,79 Z" />
+
+        <!-- Outer Glow / Pedestal -->
+        <path
+            android:fillColor="#84CC16"
+            android:pathData="M36,73 C36,70 44,68 54,68 C64,68 72,70 72,73 L71,77 C71,80 63,82 54,82 C45,82 37,80 37,77 Z" />
+
+        <!-- Pawn Body -->
+        <path
+            android:pathData="M44,48 C44,48 41,60 38,68 C42,70 48,71 54,71 C60,71 66,70 70,68 C67,60 64,48 64,48 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="40"
+                    android:startY="48"
+                    android:endX="68"
+                    android:endY="71"
+                    android:type="linear">
+                    <item android:color="#FACC15" android:offset="0.0" />
+                    <item android:color="#EAB308" android:offset="1.0" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Pawn Collar -->
+        <path
+            android:fillColor="#CA8A04"
+            android:pathData="M44,47 C44,45 48,44 54,44 C60,44 64,45 64,47 C64,49 60,50 54,50 C48,50 44,49 44,47 Z" />
+
+        <!-- Pawn Head -->
+        <path
+            android:pathData="M54,44 C47.37,44 42,38.63 42,32 C42,25.37 47.37,20 54,20 C60.63,20 66,25.37 66,32 C66,38.63 60.63,44 54,44 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="46"
+                    android:startY="22"
+                    android:endX="62"
+                    android:endY="42"
+                    android:type="linear">
+                    <item android:color="#FEF08A" android:offset="0.0" />
+                    <item android:color="#FACC15" android:offset="0.5" />
+                    <item android:color="#CA8A04" android:offset="1.0" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Gloss Highlight on Head -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:fillAlpha="0.8"
+            android:pathData="M47,27 C48,24 51,23 54,23 C55,23 53,25 51,27 C49,29 47,30 47,27 Z" />
+
+        <!-- Mini Crown on Head -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M49,27 L51,21 L54,24 L57,21 L59,27 Z" />
+    </group>
+</vector>
